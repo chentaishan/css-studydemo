@@ -54,9 +54,9 @@ ul {
 .search {
 	width: 100%;
 	height: 44px;
-	position: relative;
+	position: fixed;
 
-overflow: hidden;
+	overflow: hidden;
 }
 
 .search_left {
@@ -67,7 +67,7 @@ overflow: hidden;
 	width: 40px;
 	height: 44px;
 	line-height: 44px;
-	background-color: skyblue;
+	background-color: #00333333;
 }
 
 .search_et {
@@ -86,5 +86,13 @@ overflow: hidden;
 	width: 40px;
 	height: 44px;
 	right: 0;
-	background-color: skyblue;
+	background-color: #00333333;
+}
+
+.banner img{
+	/* height: 350px; */
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	
 }
