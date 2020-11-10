@@ -1,0 +1,139 @@
+body {
+	width: 100%;
+	min-width: 320px;
+	max-width: 640px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+ul li {
+	list-style: none;
+}
+
+header {
+	display: flex;
+	height: 55px;
+	background-color: skyblue;
+	text-align: center;
+}
+
+header a {
+
+
+	justify-content: center;
+	text-decoration: none;
+
+}
+
+header img {
+	width: 30px;
+	line-height: 55px;
+	float: right;
+}
+
+.banner {
+	position: relative;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.banner ul {
+	bottom: 0px;
+	left: 50%;
+	margin-left: -80px;
+	position: absolute;
+
+	display: flex;
+
+
+}
+
+.banner ul li {
+	/* background: url(img/lunbodian%20xuanzhogn.png) no-repeat; */
+	margin-left: 10px;
+}
+
+.nav {
+	display: flex;
+	height: 200px;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.nav div img {
+	width: 40px;
+}
+
+.tui .header a {
+	font-size: large;
+	text-decoration: none;
+}
+
+.tui .header a::before {
+
+	width: 5px;
+	height: 10px;
+	background-color: green;
+	border-radius: 0 0 3px;
+}
+
+.box {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	border: 1px #333 solid;
+	box-shadow: 3px 3px #333;
+	margin-bottom: 15px;
+
+
+
+}
+
+.box .user {
+	display: inline-block;
+	width: 120px;
+
+}
+
+.box a {
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.box .type::before {
+	content: url(img/wangpai.png);
+	width: 13px;
+}
+
+.box .you::before {
+	content: url(img/youxiu.png);
+}
+
+.year {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.year::before {
+	content: url(img/lvshifuwu.png);
+}
+
+footer {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer .item {
+	width: 20%;
+	height: 100px;
+	float: left;
+	
+}
