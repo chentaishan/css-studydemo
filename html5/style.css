@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+}
+
+.shape {
+	width: 100px;
+	background-color: skyblue;
+	height: 100px;
+	/* transform: translate(30px,30px); */
+}
+
+.shape1 {
+	margin-top: 55px;
+	width: 100px;
+	background-color: skyblue;
+	height: 100px;
+	/* 时间的过度 */
+	transition: all 0.8s;
+}
+
+.shape1:hover {
+	/* 旋转180度 */
+	transform: rotate(180deg);
+}

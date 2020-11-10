@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.w{
+	width: 1200px;
+	
+}
+
+.search{
+	
+	position: absolute;
+	left: 21.625rem;
+	top:25px;
+	width: 538px;
+	height: 36px;
+	border: 2px solid red;
+}
+
+.search input{
+	width: 455px;
+	height: 32px;
+	padding-left: 10px;
+}
