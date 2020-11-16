@@ -74,7 +74,8 @@ ul {
 	border-radius: 15px;
 	margin: 0 55px;
 	height: 30px;
-	background-color: red;
+	background-color: #00333333;
+
 	margin-top: 7px;
 }
 
@@ -89,10 +90,10 @@ ul {
 	background-color: #00333333;
 }
 
-.banner img{
+.banner img {
 	/* height: 350px; */
 	width: 100%;
 	max-width: 640px;
 	min-width: 320px;
-	
+
 }
