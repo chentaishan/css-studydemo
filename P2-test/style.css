@@ -1,139 +1,104 @@
 body {
-	width: 100%;
 	min-width: 320px;
-	max-width: 640px;
-	height: 1000px;
-	margin: 0 auto;
+
+
 }
 
-ul li {
-	list-style: none;
-}
-
-header {
+.header {
 	display: flex;
-	height: 55px;
-	background-color: skyblue;
-	text-align: center;
-}
-
-header a {
-
-
 	justify-content: center;
-	text-decoration: none;
-
-}
-
-header img {
-	width: 30px;
-	line-height: 55px;
-	float: right;
-}
-
-.banner {
+	background-color: gray;
 	position: relative;
+
+}
+
+.header img {
+	position: absolute;
+	top: 0.9125rem;
+	text-align: center;
+	right: 0.625rem;
+
 }
 
 .banner img {
+	/* 显示的样式 */
 	width: 100%;
-}
-
-.banner ul {
-	bottom: 0px;
-	left: 50%;
-	margin-left: -80px;
-	position: absolute;
-
-	display: flex;
-
-
-}
-
-.banner ul li {
-	/* background: url(img/lunbodian%20xuanzhogn.png) no-repeat; */
-	margin-left: 10px;
+	background-size: cover;
 }
 
 .nav {
 	display: flex;
-	height: 200px;
-	flex-direction: row;
+	margin: 0.625rem auto;
 	justify-content: space-around;
 }
 
-.nav div img {
-	width: 40px;
-}
-
-.tui .header a {
-	font-size: large;
-	text-decoration: none;
-}
-
-.tui .header a::before {
-
-	width: 5px;
-	height: 10px;
-	background-color: green;
-	border-radius: 0 0 3px;
-}
-
-.box {
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	border: 1px #333 solid;
-	box-shadow: 3px 3px #333;
-	margin-bottom: 15px;
-
-
+.item {
+	display: block;
 
 }
 
-.box .user {
-	display: inline-block;
-	width: 120px;
-
+.item img {
+	width: 5rem;
+	height: 5rem;
 }
 
-.box a {
-	text-decoration: none;
+.item h3 {
 	text-align: center;
-	width: 100%;
-	margin: 0 auto;
 }
 
-.box .type::before {
-	content: url(img/wangpai.png);
-	width: 13px;
+.tuijian {
+	display: flex;
+	justify-content: left;
+	background-color: gray;
+	margin: 0.8rem auto;
 }
 
-.box .you::before {
-	content: url(img/youxiu.png);
+.tuijian span {
+	margin: auto 0.625rem;
 }
 
-.year {
-	position: absolute;
-	top: 10px;
-	right: 10px;
+.listitem {
+
+
+	box-shadow: 3px 3px 3px #666666;
 }
 
-.year::before {
-	content: url(img/lvshifuwu.png);
+.listitem .user {
+
+	margin-top: 10px;
+
+
 }
 
-footer {
+.listitem img {
+	width: 80px;
+	height: 80px;
+}
+
+.listitem h3 {
+	text-align: center;
+}
+
+.footer {
 	width: 100%;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
+	justify-content: space-around;
+	height: 80px;
 
-footer .item {
-	width: 20%;
-	height: 100px;
-	float: left;
-	
+	left: 0 ;
+	background-color: skyblue;
+	position: fixed;
+	bottom: 0;
+}
+.footer div {
+	display: block;
+	background-color: pink;
+}
+.footer img {
+	width: 50px;
+	height: 50px;
+}
+.footer h3{
+	width: 50px;
+	 
 }
