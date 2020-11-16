@@ -1,15 +1,32 @@
 // 变量 编译 嵌套 运算
+
+@media screen and (min-width:320px){
+	html{
+		font-size: 10px;
+	}
+}
+@media screen and (min-width:520px){
+	html{
+		font-size: 20px;
+	}
+}
+
 @pcolor:pink;
 @wcolor:white;
-body {
-	background-color: @pcolor;
-}
-div {
-	background-color: @wcolor;
-}
+// body {
+// 	background-color: @pcolor;
+// }
+// div {
+// 	background-color: @wcolor;
+// }
 .a{
-	
+	height: 50rem;
+	width: 50rem;
+	background-color: pink;
 	.b{
+		background-color: purple;
+		width: 25rem;
+		heigt: 25rem;
 		color: green;
 	}
 }
