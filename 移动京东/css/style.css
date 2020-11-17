@@ -4,14 +4,15 @@
 }
 
 body {
+
+	width: 100%;
 	min-width: 320px;
 	max-width: 640px;
-	line-height: 1.5;
-	font-family: -apple-system;
 	margin: 0 auto;
-	width: 100%;
-	color: #666666;
 	font-size: 14px;
+	font-family: -apple-system, Helvetica, sans-serif;
+	color: #666;
+	line-height: 1.5;
 }
 
 li {
@@ -23,14 +24,10 @@ li {
 	height: 45px;
 	width: 100%;
 	background-color: #666666;
-	position: fixed;
-	top: 0;
-	left: 0;
+
 }
 
-.app ul {
-	width: 100%;
-}
+
 
 .app ul li {
 
@@ -48,19 +45,20 @@ li {
 
 .app ul li:nth-child(1) img {
 	width: 16px;
-
+	vertical-align: middle;
 }
 
 .app ul li:nth-child(2) {
 	width: 10%;
 	float: left;
-	
+
 }
 
 
 .app ul li:nth-child(2) img {
-	height: 45px;
+	height: 30px;
 
+	vertical-align: middle;
 }
 
 .app ul li:nth-child(3) {
@@ -74,16 +72,9 @@ li {
 	background-color: red;
 
 }
+
 .app ul li a {
 	color: #FFFFFF;
 	text-decoration: none;
 
 }
- 
- 
- .search {
-	 height: 1500px;
-	 background-color: skyblue;
- }
-
- 
