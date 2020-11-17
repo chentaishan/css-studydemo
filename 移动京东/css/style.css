@@ -13,6 +13,7 @@ body {
 	font-family: -apple-system, Helvetica, sans-serif;
 	color: #666;
 	line-height: 1.5;
+	background-color: darkgrey;
 }
 
 li {
@@ -77,4 +78,65 @@ li {
 	color: #FFFFFF;
 	text-decoration: none;
 
+}
+
+.search {
+	position: relative;
+	height: 44px;
+	overflow: hidden;
+}
+
+.search_left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 44px;
+	background: url(../img/s-btn.png) no-repeat;
+
+	background-size: 20px 18px;
+	margin: 14px 0 0 14px;
+}
+
+
+.input {
+
+	border-radius: 15px;
+	position: relative;
+	height: 30px;
+	margin: 7px 50px;
+
+	background-color: #FFFFFF;
+}
+
+.input .img {
+	position: absolute;
+	top: 8px;
+	left: 13px;
+	width: 20px;
+	height: 15px;
+	background: url(../img/jd.png) no-repeat;
+	background-size: 20px 0.9375rem;
+
+}
+
+.line{
+	 
+	position: absolute;
+	top: 8px;
+	left: 48px;
+	width: 1px;
+	height: 15px;
+	background-color: #CCCCCC
+}
+
+.search_right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 44px;
+	background-color: pink;
+	text-align: center;
+	line-height: 44px;
 }
