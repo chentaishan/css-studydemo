@@ -1,0 +1,73 @@
+
+/*样式的清空重置*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color:#000;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+img {
+	border: none;
+	display: block;
+	/* vertical-align: top; */
+}
+
+b,i,em {
+	font-style: normal;
+	font-weight: 400;
+}
+
+/*清除浮动*/
+.clearfloat:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+/* IE9以下 */
+header,nav,article,section,footer {
+	display: block;
+}
+
+/* 布局 */
+body{
+	margin: 0 auto;
+	font: normal 14px/1.5 Tahoma,"Lucida Grande",Verdana,"Microsoft Yahei",STXihei,hei;
+	color: #000;
+	background: #f2f2f2;
+	overflow-x: hidden;
+	-webkit-tap-highlight-color: transparent;
+}
+
+header {
+	width: 100%;
+}
+
+article,.content-wrap {
+	flex: 1;
+	overflow: auto;
+}
+
+footer {
+	width: 100%;
+}

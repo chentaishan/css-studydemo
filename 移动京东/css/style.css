@@ -140,3 +140,12 @@ li {
 	text-align: center;
 	line-height: 44px;
 }
+.banner img{
+	width: 100%;
+}
+
+.grid .item{
+	float: left;
+	width: 2.5rem;
+	height: 2.5rem;
+}
