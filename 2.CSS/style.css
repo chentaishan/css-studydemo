@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ 
+ 
+
+.x {
+	float: left;
+	height: 100px;
+	width: 100px;
+	background-color: deepskyblue;
+}
+
+.y {
+	float: left;
+	height: 100px;
+	 width: 100px;
+	background-color: skyblue;
+}
+.z {
+	float: left;
+	 width: 100px;
+	height: 100px;
+ 
+	background-color: red;
+}
+ 
+.xx {
+ 
+	height: 100px;
+	 clear: both;
+	background-color: bisque;
+}
