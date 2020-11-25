@@ -47,31 +47,39 @@ header {
 }
 
 
+article {
+	padding-left: 0 !important;
+}
 
 .new li {
 	float: left;
 	width: 25%;
 	height: 128px;
 	padding-right: 10px;
-	 
+
 	margin-bottom: 10px;
+
 }
-.news ul li a {
-	position: relative;
-	display: block;
-	width: 100%;
-	height: 100%;
-	background-color: green;
-}
+
+
+
 .new ul li:nth-child(1) {
 	float: left;
 	width: 50%;
 	height: 266px;
-	 
+
 }
 
+ .one {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 100%;
+	 
 
-.new ul li:nth-child(1) img {
+}
+
+.new ul li a img {
 
 	width: 100%;
 	height: 100%;
@@ -88,5 +96,5 @@ header {
 	line-height: 41px;
 	padding-left: 15px;
 	height: 41px;
-	background: rgba(0, 0, 0, .1);
+	background: rgba(0, 0, 0, 0.3);
 }
