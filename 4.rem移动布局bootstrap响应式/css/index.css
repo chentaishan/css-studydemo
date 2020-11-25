@@ -110,3 +110,23 @@ article {
 	margin-top: 10px;
 	height: 100%;
 }
+
+.banner img{
+	width: 100%;
+}
+.hot{
+	padding: 0 20px 20px;
+	display: block;
+	margin-top: 20px;
+	border: 1px solid #CCCCCC;
+}
+.hot span{
+	border-radius: 0;
+	color: #FFFFFF;
+	margin-bottom:20px
+}
+.hot p{
+	 
+	color: #666;
+	font-size: 12px;
+}
