@@ -21,8 +21,25 @@ header {
 
 .logo img {
 
-	width: 100%;
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	/* width: 100%; */
 }
+
+/* 进入超小屏幕，隐藏图片 */
+
+.logo span{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	text-align: center;
+	background-color: #00A4FF;
+	color: #FFFFFF;
+	
+}
+
 
 .nav {
 	background-color: #eee;
@@ -103,30 +120,35 @@ article {
 .publish {
 	border-top: solid 1px #CCCCCC;
 }
+
 .publish .row {
 	border-bottom: solid 1px #CCCCCC;
 }
+
 .publish .row img {
 	margin-top: 10px;
 	height: 100%;
 }
 
-.banner img{
+.banner img {
 	width: 100%;
 }
-.hot{
+
+.hot {
 	padding: 0 20px 20px;
 	display: block;
 	margin-top: 20px;
 	border: 1px solid #CCCCCC;
 }
-.hot span{
+
+.hot span {
 	border-radius: 0;
 	color: #FFFFFF;
-	margin-bottom:20px
+	margin-bottom: 20px
 }
-.hot p{
-	 
+
+.hot p {
+
 	color: #666;
 	font-size: 12px;
 }
