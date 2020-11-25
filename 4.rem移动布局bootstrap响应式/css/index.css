@@ -63,6 +63,13 @@ header {
 	vertical-align: middle;
 }
 
+@media screen and (max-width:991px) {
+	.nav li{
+		float: left;
+		width: 20%;
+	}
+}
+
 
 article {
 
