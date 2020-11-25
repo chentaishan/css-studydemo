@@ -30,6 +30,9 @@ header {
 /* 进入超小屏幕，隐藏图片 */
 
 @media screen and (max-width:767px) {
+	.nav li a {
+		padding-left: 13px;
+	}
 	.new li:nth-child(1) {
 		width: 100%!important;
 	}
@@ -76,6 +79,7 @@ header {
 	.nav li{
 		float: left;
 		width: 20%;
+	 
 	}
 	article{
 		margin-top: 10px;
