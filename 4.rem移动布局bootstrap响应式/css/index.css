@@ -48,6 +48,7 @@ header {
 
 
 article {
+
 	padding-left: 0 !important;
 }
 
@@ -70,12 +71,12 @@ article {
 
 }
 
- .one {
+.one {
 	position: relative;
 	display: block;
 	height: 100%;
 	width: 100%;
-	 
+
 
 }
 
@@ -97,4 +98,15 @@ article {
 	padding-left: 15px;
 	height: 41px;
 	background: rgba(0, 0, 0, 0.3);
+}
+
+.publish {
+	border-top: solid 1px #CCCCCC;
+}
+.publish .row {
+	border-bottom: solid 1px #CCCCCC;
+}
+.publish .row img {
+	margin-top: 10px;
+	height: 100%;
 }
