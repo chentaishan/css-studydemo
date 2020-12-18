@@ -5,5 +5,136 @@
 		<title></title>
 	</head>
 	<body>
+		<!-- input 表单
+		 
+		 type:
+			text 文本
+			password 密码
+			checkbox 复选框
+			radio 单选
+			button 普通按钮
+			submit 提交按钮
+			reset 重置按钮
+			image 图形形式的提交按钮
+			file 文件域
+		size: 整数--》在页面中的显示宽度	
+		value: 默认显示的内容
+		name:区别不同的表单	
+		checked: 被选中
+		maxlength:控件允许输入的最多字符数
+		
+		label: 提交用户体验，绑定input
+		
+		textarea文本域
+			cols:每行字符数
+			rows:显示的行数
+		select:下拉列表
+			option 列表项
+			selected: 默认选中
+			
+		form 表单域
+			action:用于提交数据到哪里的url
+			name:指定表单的名称
+		 -->
+
+		<table width="600px" align="center">
+			<caption>
+				<h3>青春啊！</h3>
+			</caption>
+
+
+			<tr>
+				<td>
+					性别：<input type="radio" name="sex" /> <input type="image" src="img/man.jpg" />男
+					<input type="radio" name="sex" /><input type="image" src="img/women.jpg" /> 女
+
+				</td>
+			</tr>
+			<tr>
+				<td>生日</td>
+				<td>
+					<select name="year">
+						<option>--选择年限--</option>
+						<option>1995</option>
+						<option>1996</option>
+						<option>1997</option>
+					</select>
+					<select name="month">
+						<option value="">--月份--</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+					</select>
+					<select name="date">
+						<option value="">--日期--</option>
+						<option value="">1995</option>
+						<option value="">1996</option>
+						<option value="">1997</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>所在地区：</td>
+				<td><input type="text" id="" value="北京" /></td>
+
+			</tr>
+
+			<tr>
+
+				<td>婚姻：</td>
+				<td><input type="radio" name="marry" id="" value="" />未婚
+
+					<input type="radio" name="marry" id="" value="" />结婚
+					<input type="radio" name="marry" id="" value="" />离婚
+				</td>
+			</tr>
+
+			<tr>
+
+				<td>学历</td>
+				<td><input type="text" id="" value="高中" /></td>
+
+			</tr>
+
+			<tr>
+
+				<td>月薪</td>
+				<td>
+					<div class="mui-input-row">
+						<label>Input</label>
+						<input type="text" placeholder="普通输入框">
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+
+				<td>爱好</td>
+				<td>
+					<input checked="checked" type="checkbox" name="fav" id="" value="" />足球
+					<input type="checkbox" name="fav" id="" value="" />X球
+					<input type="checkbox" name="fav" id="" value="" />Y球
+					<input type="checkbox" name="fav" id="" value="" />足球
+
+				</td>
+			</tr>
+			<tr>
+
+				<td>自我介绍</td>
+				<td>
+
+					<textarea>
+
+					</textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><input type="image" src="img/btn.png" id="" value="" /></td>
+			</tr>
+		</table>
+
 	</body>
 </html>
