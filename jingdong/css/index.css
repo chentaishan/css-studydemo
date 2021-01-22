@@ -140,6 +140,22 @@ ul li {
 	height: 15px;
 	 
 	background: url(../images/jd-sprites.png) no-repeat -81px 0;
-	//缩放精灵图 缩放一半
+	/* //缩放精灵图 缩放一半 */
 	background-size: 200px auto;
+}
+
+.slide img{
+	width: 100%;
+}
+
+.brand{
+	width: 100%;
+}
+.brand .item{
+	float: left;
+	width: 33.33%;
+}
+.brand .item img{
+ 
+	width: 100%;
 }
