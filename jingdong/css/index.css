@@ -71,10 +71,17 @@ ul li {
 }
 
 .search_layout {
-	clear: both;
-	position: relative;
+	position: fixed;
+	overflow: hidden;
 	height: 40px;
+	top: 44px;
+
+	margin: 0 auto;
+
 	background-color: red;
+	width: 100%;
+	min-width: 320px;
+	max-width: 640px;
 }
 
 .search_l {
@@ -126,7 +133,7 @@ ul li {
 	right: -8px;
 	top: 0;
 	content: '';
-	display:  block;
+	display: block;
 	background-color: gainsboro;
 	width: 1px;
 	height: 15px;
@@ -138,24 +145,70 @@ ul li {
 	top: 12px;
 	width: 18px;
 	height: 15px;
-	 
+
 	background: url(../images/jd-sprites.png) no-repeat -81px 0;
 	/* //缩放精灵图 缩放一半 */
 	background-size: 200px auto;
 }
 
-.slide img{
+.slide img {
 	width: 100%;
 }
 
-.brand{
+.brand {
 	width: 100%;
 }
-.brand .item{
+
+.brand .item {
 	float: left;
 	width: 33.33%;
 }
-.brand .item img{
- 
+
+.brand .item img {
+
 	width: 100%;
 }
+
+.nav {
+	padding-top: 5px;
+}
+
+.nav a {
+	width: 20%;
+	float: left;
+
+	text-decoration: none;
+	text-align: center;
+}
+
+.nav a img {
+
+	width: 40px;
+	margin: 10px 0;
+
+}
+
+.nav a span {
+	display: block;
+}
+
+.box {
+
+	clear: both;
+	width: 100%;
+}
+.box a{
+	float: left;
+}
+.box a img {
+	width: 100%;
+	
+}
+.first{
+	width: 50%;
+}
+
+.two,.three{
+	width: 25%;
+}
+ 
